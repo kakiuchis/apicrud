@@ -6,7 +6,7 @@ languages = [{'name' : 'java'}, {'name' : 'php'}, {'name' : 'ruby'}]
 
 @app.route("/", methods = ['GET'])
 def test():
-    return jsonify({'message' : 'it is wotks.'})
+    return jsonify({'message' : 'it is works.'})
 
 @app.route("/lang", methods = ['GET'])
 def returnAll():
